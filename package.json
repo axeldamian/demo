@@ -4,7 +4,7 @@
     "gh-pages": "^6.1.1"
   },
   "scripts":{
-    "build": "npm build demo",
+    "build": "npm run build demo",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   }
