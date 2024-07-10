@@ -2,7 +2,7 @@
   "homepage": "https://axeldamian.github.io/demo/",
   "dependencies": {
     "gh-pages": "^6.1.1"
-  }
+  },
   "scripts":{
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
